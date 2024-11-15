@@ -22,6 +22,7 @@ nav {
 
 
 .Menu ul {
+
     list-style: none;
     display: flex;
     gap: 15px;
@@ -97,21 +98,27 @@ section {
 }
 
 
-.desc{
+.desc {
     font-size: 15px;
     font-style: italic;
 }
 
 /* .arrow img { */
-    /* width: 40pxpx; */
-    /* height: 50px; */
-    /* margin-left: 100px; */
+/* width: 40pxpx; */
+/* height: 50px; */
+/* margin-left: 100px; */
 
 
 
 .left-lower {
+
+
     height: 39%;
     width: 100%;
+    grid-row: 3/3;
+    grid-column: 1 / 2;
+    background-size: auto;
+    margin: 5px;
     /* background-color: darkviolet; */
     padding: 5px;
     display: flex;
@@ -119,12 +126,22 @@ section {
 }
 
 
-.small-box {
+.small-box1 {
     width: 49%;
     height: 100%;
     background-color: lightgreen;
     border-radius: 10px;
     background: url('https://i.pinimg.com/736x/ab/33/6f/ab336f71732c4a478a507433fb7e0985.jpg');
+    background-size: cover;
+
+}
+
+.small-box2 {
+    width: 49%;
+    height: 100%;
+    background-color: lightgreen;
+    border-radius: 10px;
+    background: url(https://i.pinimg.com/236x/5e/27/37/5e2737d20dc08be1de8627ffcba61bd4.jpg);
     background-size: cover;
 }
 
@@ -133,6 +150,6 @@ section {
     height: 100%;
     background-color: darkturquoise;
     border-radius: 10px;
-    background: url('/img.jpg');
+    background: url(https://i.pinimg.com/736x/11/bc/d4/11bcd4f590501d4de995489225989a0c.jpg);
     background-size: cover;
 }
