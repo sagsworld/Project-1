@@ -131,7 +131,7 @@ section {
     height: 100%;
     background-color: lightgreen;
     border-radius: 10px;
-    background: url('https://i.pinimg.com/736x/ab/33/6f/ab336f71732c4a478a507433fb7e0985.jpg');
+    background: url(https://i.pinimg.com/236x/db/1d/d8/db1dd8b524bb45dd1d459c590e82ba0f.jpg);
     background-size: cover;
 
 }
@@ -141,7 +141,7 @@ section {
     height: 100%;
     background-color: lightgreen;
     border-radius: 10px;
-    background: url(https://i.pinimg.com/236x/5e/27/37/5e2737d20dc08be1de8627ffcba61bd4.jpg);
+    background: url(https://i.pinimg.com/236x/b5/fd/74/b5fd7422e41593f18f452749ae52ccf4.jpg);
     background-size: cover;
 }
 
@@ -153,3 +153,4 @@ section {
     background: url(https://i.pinimg.com/736x/11/bc/d4/11bcd4f590501d4de995489225989a0c.jpg);
     background-size: cover;
 }
+
